@@ -1,7 +1,9 @@
-body{
+/* css styling for bacground */
+
+body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(to bottom,lightgreen,lightblue);
+    background: linear-gradient(to bottom, lightgreen, lightblue);
     display: flex;
     min-height: 100vh;
     justify-content: center;
@@ -9,8 +11,9 @@ body{
     text-align: center;
 }
 
+/* css styling for container */
 
-.container{
+.container {
     background-color: aliceblue;
     padding: 20px;
     border-radius: 5px;
@@ -24,8 +27,9 @@ body{
     align-items: center;
 }
 
+/* styling for all three buttons */
 
-.btn{
+.btn {
     text-transform: uppercase;
     width: 250px;
     height: 45px;
@@ -36,14 +40,14 @@ body{
     color: aliceblue;
 }
 
-.btn:hover{
-    color:black;
+.btn:hover {
+    color: black;
     background-color: aquamarine;
     cursor: pointer;
     transition: background-color 300ms;
 }
 
-.btn-refresh{
+.btn-refresh {
     text-transform: uppercase;
     width: 250px;
     height: 45px;
@@ -54,14 +58,62 @@ body{
     color: aliceblue;
 }
 
-.btn-refresh:hover{
-    color:black;
+.btn-refresh:hover {
+    color: black;
     background-color: whitesmoke;
     cursor: pointer;
     transition: background-color 300ms;
 }
 
-.images1{
+.btn-darkmode {
+    text-transform: uppercase;
+    width: 250px;
+    height: 45px;
+    margin: 20px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.btn-darkmode:hover {
+    color: black;
+    background-color: whitesmoke;
+    cursor: pointer;
+    transition: background-color 300ms;
+}
+
+/* styling for darkmode */
+
+.darkmode {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to bottom, rgb(38, 41, 42), rgb(26, 67, 14));
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerdark {
+    background-color: rgb(33, 55, 74);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 3);
+    width: 90%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css for images  */
+
+.images1 {
     display: none;
     height: 500px;
     max-height: 500px;
