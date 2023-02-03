@@ -1,6 +1,6 @@
 /* css styling for bacground */
 
-body {
+.body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(to bottom, lightgreen, lightblue);
