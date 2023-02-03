@@ -14,6 +14,21 @@ function refreshPage() {
 //function for darkmode
 
 function darkmode() {
-    document.getElementById('dark').className = "darkmode";
-    document.getElementById('container').className = "containerdark";
+
+    //old code for dark mode
+
+    // document.getElementById('dark').className = "darkmode";
+    // document.getElementById('container').className = "containerdark";
+
+
+    // new code for dark mode with toggle feature
+    const elements = document.getElementById('dark');
+    if (elements.className == "body"){
+        elements.className = "darkmode"
+        document.getElementById('container').className = "containerdark"
+    }
+    else{
+        elements.className = "body"
+        document.getElementById('container').className = "container"
+    }
 }
